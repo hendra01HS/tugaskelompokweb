@@ -411,24 +411,24 @@
 <!-- NAVBAR -->
 <nav>
   <div class="nav-inner">
-    <a class="logo" onclick="showPage('beranda')">
+    <a class="logo" onClick="showPage('beranda')">
       <div class="logo-icon">🌏</div>
       <div>
         <div class="logo-text">IPS Human Security</div>
-        <div class="logo-sub">SD Fase C — Kelas 4, 5 & 6</div>
+        <div class="logo-sub">SD Fase C — Kelas 5 & 6</div>
       </div>
     </a>
     <div class="nav-links">
-      <a onclick="showPage('beranda')" id="nav-beranda" class="active">🏠 Beranda</a>
-      <a onclick="showPage('materi')" id="nav-materi">📚 Materi</a>
-      <a onclick="showPage('video')" id="nav-video">🎬 Video</a>
-      <a onclick="showPage('soal')" id="nav-soal">✏️ Soal</a>
-      <a onclick="showPage('profil')" id="nav-profil">👥 Tim</a>
+      <a onClick="showPage('beranda')" id="nav-beranda" class="active">🏠 Beranda</a>
+      <a onClick="showPage('materi')" id="nav-materi">📚 Materi</a>
+      <a onClick="showPage('video')" id="nav-video">🎬 Video</a>
+      <a onClick="showPage('soal')" id="nav-soal">✏️ Soal</a>
+      <a onClick="showPage('profil')" id="nav-profil">👥 Tim</a>
     </div>
     <div class="nav-right">
       <span id="admin-badge">🛡️ Admin</span>
-      <button id="admin-btn" onclick="showPage('login')">🔐 Admin</button>
-      <button id="logout-btn" onclick="doLogout()">Keluar</button>
+      <button id="admin-btn" onClick="showPage('login')">🔐 Admin</button>
+      <button id="logout-btn" onClick="doLogout()">Keluar</button>
     </div>
   </div>
 </nav>
@@ -442,7 +442,7 @@
   <div class="hero">
     <div class="hero-badge">✨ PLATFORM PEMBELAJARAN INTERAKTIF</div>
     <h1>Belajar <span>IPS</span> Jadi Menyenangkan!<br>Bersama Human Security 🌟</h1>
-    <p>Platform belajar IPS untuk Siswa SD Fase C (Kelas 4–6). Pelajari materi, tonton video seru, dan uji kemampuanmu dengan soal latihan!</p>
+    <p>Platform belajar IPS untuk Siswa SD Fase C (Kelas 5 & 6). Pelajari materi, tonton video seru, dan uji kemampuanmu dengan soal latihan!</p>
     <div class="hero-pills">
       <div class="hero-pill">🌍 Lingkungan & Masyarakat</div>
       <div class="hero-pill">🛡️ Keamanan Manusia</div>
@@ -453,7 +453,7 @@
 
   <!-- STATS -->
   <div class="section">
-    <div class="phase-badge">📚 SD Fase C — Kelas 4, 5 & 6</div>
+    <div class="phase-badge">📚 SD Fase C — Kelas 5 & 6</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-top:8px;">
       <div class="card" style="padding:24px;text-align:center;">
         <div style="font-size:2.5rem;margin-bottom:8px;">📖</div>
@@ -485,19 +485,19 @@
       </div>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;">
-      <div class="card" style="padding:24px;cursor:pointer;" onclick="showPage('materi')">
+      <div class="card" style="padding:24px;cursor:pointer;" onClick="showPage('materi')">
         <div style="font-size:3rem;margin-bottom:12px;">📚</div>
         <h3 style="font-family:'Nunito',sans-serif;font-weight:800;margin-bottom:8px;">Baca Materi</h3>
         <p style="font-size:0.85rem;color:var(--muted);">Belajar tentang Human Security, masyarakat, dan lingkungan.</p>
         <div style="margin-top:14px;" class="btn btn-sky">Buka Materi →</div>
       </div>
-      <div class="card" style="padding:24px;cursor:pointer;" onclick="showPage('video')">
+      <div class="card" style="padding:24px;cursor:pointer;" onClick="showPage('video')">
         <div style="font-size:3rem;margin-bottom:12px;">🎬</div>
         <h3 style="font-family:'Nunito',sans-serif;font-weight:800;margin-bottom:8px;">Tonton Video</h3>
         <p style="font-size:0.85rem;color:var(--muted);">Video edukatif yang seru dan mudah dipahami.</p>
         <div style="margin-top:14px;" class="btn btn-green">Tonton Sekarang →</div>
       </div>
-      <div class="card" style="padding:24px;cursor:pointer;" onclick="showPage('soal')">
+      <div class="card" style="padding:24px;cursor:pointer;" onClick="showPage('soal')">
         <div style="font-size:3rem;margin-bottom:12px;">✏️</div>
         <h3 style="font-family:'Nunito',sans-serif;font-weight:800;margin-bottom:8px;">Kerjakan Soal</h3>
         <p style="font-size:0.85rem;color:var(--muted);">Uji pemahamanmu dengan soal latihan interaktif.</p>
@@ -515,7 +515,7 @@
         <div class="icon" style="background:var(--sky-light);">📚</div>
         Materi Pembelajaran IPS
       </div>
-      <button id="add-materi-btn" class="btn btn-sky" onclick="openMateriModal()" style="display:none;">+ Tambah Materi</button>
+      <button id="add-materi-btn" class="btn btn-sky" onClick="openMateriModal()" style="display:none;">+ Tambah Materi</button>
     </div>
     <div id="materi-grid" class="card-grid"></div>
   </div>
@@ -524,7 +524,7 @@
 <!-- ===================== PAGE: DETAIL MATERI ===================== -->
 <div class="page" id="page-detail-materi">
   <div class="section">
-    <button class="back-btn" onclick="showPage('materi')">← Kembali ke Materi</button>
+    <button class="back-btn" onClick="showPage('materi')">← Kembali ke Materi</button>
     <div id="detail-materi-content"></div>
   </div>
 </div>
@@ -537,7 +537,7 @@
         <div class="icon" style="background:var(--coral-light);">🎬</div>
         Video Pembelajaran
       </div>
-      <button id="add-video-btn" class="btn btn-sky" onclick="openVideoModal()" style="display:none;">+ Tambah Video</button>
+      <button id="add-video-btn" class="btn btn-sky" onClick="openVideoModal()" style="display:none;">+ Tambah Video</button>
     </div>
     <div id="video-grid" class="card-grid"></div>
   </div>
@@ -551,7 +551,7 @@
         <div class="icon" style="background:var(--sun-light);">✏️</div>
         Soal Latihan
       </div>
-      <button id="add-soal-btn" class="btn btn-sky" onclick="openSoalModal()" style="display:none;">+ Tambah Soal</button>
+      <button id="add-soal-btn" class="btn btn-sky" onClick="openSoalModal()" style="display:none;">+ Tambah Soal</button>
     </div>
     <div class="quiz-container">
       <div class="quiz-score-bar">
@@ -560,7 +560,7 @@
           <div class="score-label">Jawaban Benar</div>
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;">
-          <button class="btn btn-outline" onclick="resetQuiz()">🔄 Ulangi</button>
+          <button class="btn btn-outline" onClick="resetQuiz()">🔄 Ulangi</button>
         </div>
       </div>
       <div id="soal-list"></div>
@@ -576,7 +576,7 @@
         <div class="icon" style="background:var(--purple-light);">👥</div>
         Tim Pengembang
       </div>
-      <button id="add-profil-btn" class="btn btn-sky" onclick="openProfilModal()" style="display:none;">+ Tambah Anggota</button>
+      <button id="add-profil-btn" class="btn btn-sky" onClick="openProfilModal()" style="display:none;">+ Tambah Anggota</button>
     </div>
     <div id="profil-grid" class="card-grid"></div>
   </div>
@@ -596,11 +596,11 @@
       </div>
       <div class="form-group">
         <label class="form-label">Password</label>
-        <input type="password" class="form-control" id="login-pass" placeholder="Masukkan password" onkeydown="if(event.key==='Enter')doLogin()">
+        <input type="password" class="form-control" id="login-pass" placeholder="Masukkan password" onKeyDown="if(event.key==='Enter')doLogin()">
       </div>
-      <button class="btn btn-sky" style="width:100%;justify-content:center;padding:12px;" onclick="doLogin()">Masuk →</button>
+      <button class="btn btn-sky" style="width:100%;justify-content:center;padding:12px;" onClick="doLogin()">Masuk →</button>
       <p style="margin-top:16px;font-size:0.78rem;color:var(--muted);">Username: <b>admin</b> | Password: <b>ips2026</b></p>
-      <button class="btn" style="margin-top:12px;background:var(--border);color:var(--muted);width:100%;justify-content:center;" onclick="showPage('beranda')">← Kembali</button>
+      <button class="btn" style="margin-top:12px;background:var(--border);color:var(--muted);width:100%;justify-content:center;" onClick="showPage('beranda')">← Kembali</button>
     </div>
   </div>
 </div>
@@ -613,17 +613,17 @@
       <div style="font-size:0.85rem;color:var(--muted);">Kelola seluruh konten website pembelajaran IPS</div>
     </div>
     <div class="admin-tabs">
-      <button class="admin-tab active" onclick="switchAdminTab('mahasiswa')">👥 Mahasiswa</button>
-      <button class="admin-tab" onclick="switchAdminTab('materi-adm')">📚 Materi</button>
-      <button class="admin-tab" onclick="switchAdminTab('video-adm')">🎬 Video</button>
-      <button class="admin-tab" onclick="switchAdminTab('soal-adm')">✏️ Soal</button>
+      <button class="admin-tab active" onClick="switchAdminTab('mahasiswa')">👥 Mahasiswa</button>
+      <button class="admin-tab" onClick="switchAdminTab('materi-adm')">📚 Materi</button>
+      <button class="admin-tab" onClick="switchAdminTab('video-adm')">🎬 Video</button>
+      <button class="admin-tab" onClick="switchAdminTab('soal-adm')">✏️ Soal</button>
     </div>
 
     <!-- TAB MAHASISWA -->
     <div class="admin-tab-content active" id="tab-mahasiswa">
       <div class="admin-header">
         <div class="admin-title">Daftar Mahasiswa / Tim</div>
-        <button class="btn btn-sky" onclick="openProfilModal()">+ Tambah</button>
+        <button class="btn btn-sky" onClick="openProfilModal()">+ Tambah</button>
       </div>
       <div class="table-wrap"><table class="admin-table" id="adm-mahasiswa-table">
         <thead><tr><th>#</th><th>Nama</th><th>NIM</th><th>Prodi</th><th>Aksi</th></tr></thead>
@@ -635,7 +635,7 @@
     <div class="admin-tab-content" id="tab-materi-adm">
       <div class="admin-header">
         <div class="admin-title">Daftar Materi</div>
-        <button class="btn btn-sky" onclick="openMateriModal()">+ Tambah</button>
+        <button class="btn btn-sky" onClick="openMateriModal()">+ Tambah</button>
       </div>
       <div class="table-wrap"><table class="admin-table">
         <thead><tr><th>#</th><th>Judul</th><th>Kategori</th><th>Fase</th><th>Aksi</th></tr></thead>
@@ -647,7 +647,7 @@
     <div class="admin-tab-content" id="tab-video-adm">
       <div class="admin-header">
         <div class="admin-title">Daftar Video</div>
-        <button class="btn btn-sky" onclick="openVideoModal()">+ Tambah</button>
+        <button class="btn btn-sky" onClick="openVideoModal()">+ Tambah</button>
       </div>
       <div class="table-wrap"><table class="admin-table">
         <thead><tr><th>#</th><th>Judul</th><th>URL/Embed</th><th>Durasi</th><th>Aksi</th></tr></thead>
@@ -659,7 +659,7 @@
     <div class="admin-tab-content" id="tab-soal-adm">
       <div class="admin-header">
         <div class="admin-title">Daftar Soal</div>
-        <button class="btn btn-sky" onclick="openSoalModal()">+ Tambah</button>
+        <button class="btn btn-sky" onClick="openSoalModal()">+ Tambah</button>
       </div>
       <div class="table-wrap"><table class="admin-table">
         <thead><tr><th>#</th><th>Pertanyaan</th><th>Jawaban Benar</th><th>Aksi</th></tr></thead>
@@ -676,7 +676,7 @@
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">👤 <span id="profil-modal-title">Tambah Anggota</span></div>
-      <button class="btn-close-modal" onclick="closeModal('modal-profil')">✕</button>
+      <button class="btn-close-modal" onClick="closeModal('modal-profil')">✕</button>
     </div>
     <input type="hidden" id="profil-edit-id">
     <div class="form-group">
@@ -711,8 +711,8 @@
       </select>
     </div>
     <div class="modal-actions">
-      <button class="btn" style="background:var(--border);color:var(--muted);" onclick="closeModal('modal-profil')">Batal</button>
-      <button class="btn btn-sky" onclick="saveProfil()">💾 Simpan</button>
+      <button class="btn" style="background:var(--border);color:var(--muted);" onClick="closeModal('modal-profil')">Batal</button>
+      <button class="btn btn-sky" onClick="saveProfil()">💾 Simpan</button>
     </div>
   </div>
 </div>
@@ -722,7 +722,7 @@
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">📚 <span id="materi-modal-title">Tambah Materi</span></div>
-      <button class="btn-close-modal" onclick="closeModal('modal-materi')">✕</button>
+      <button class="btn-close-modal" onClick="closeModal('modal-materi')">✕</button>
     </div>
     <input type="hidden" id="materi-edit-id">
     <div class="form-group">
@@ -743,7 +743,7 @@
     <div class="form-group">
       <label class="form-label">Fase / Kelas</label>
       <select class="form-control" id="materi-fase">
-        <option value="Fase C - Kelas 4">Fase C - Kelas 4</option>
+        <option value="Fase C - Kelas 5">Fase C - Kelas 5</option>
         <option value="Fase C - Kelas 5">Fase C - Kelas 5</option>
         <option value="Fase C - Kelas 6">Fase C - Kelas 6</option>
       </select>
@@ -765,8 +765,8 @@
       <textarea class="form-control" id="materi-tujuan" placeholder="Siswa memahami konsep human security; Siswa dapat menjelaskan..."></textarea>
     </div>
     <div class="modal-actions">
-      <button class="btn" style="background:var(--border);color:var(--muted);" onclick="closeModal('modal-materi')">Batal</button>
-      <button class="btn btn-sky" onclick="saveMateri()">💾 Simpan</button>
+      <button class="btn" style="background:var(--border);color:var(--muted);" onClick="closeModal('modal-materi')">Batal</button>
+      <button class="btn btn-sky" onClick="saveMateri()">💾 Simpan</button>
     </div>
   </div>
 </div>
@@ -776,7 +776,7 @@
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">🎬 <span id="video-modal-title">Tambah Video</span></div>
-      <button class="btn-close-modal" onclick="closeModal('modal-video')">✕</button>
+      <button class="btn-close-modal" onClick="closeModal('modal-video')">✕</button>
     </div>
     <input type="hidden" id="video-edit-id">
     <div class="form-group">
@@ -800,8 +800,8 @@
       <input type="text" class="form-control" id="video-emoji" placeholder="🌍">
     </div>
     <div class="modal-actions">
-      <button class="btn" style="background:var(--border);color:var(--muted);" onclick="closeModal('modal-video')">Batal</button>
-      <button class="btn btn-sky" onclick="saveVideo()">💾 Simpan</button>
+      <button class="btn" style="background:var(--border);color:var(--muted);" onClick="closeModal('modal-video')">Batal</button>
+      <button class="btn btn-sky" onClick="saveVideo()">💾 Simpan</button>
     </div>
   </div>
 </div>
@@ -811,7 +811,7 @@
   <div class="modal" style="max-width:700px;">
     <div class="modal-header">
       <div class="modal-title" id="player-title">🎬 Video</div>
-      <button class="btn-close-modal" onclick="closeModal('modal-player')">✕</button>
+      <button class="btn-close-modal" onClick="closeModal('modal-player')">✕</button>
     </div>
     <div id="player-container"></div>
     <p id="player-desc" style="color:var(--muted);font-size:0.88rem;line-height:1.7;"></p>
@@ -823,7 +823,7 @@
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">✏️ <span id="soal-modal-title">Tambah Soal</span></div>
-      <button class="btn-close-modal" onclick="closeModal('modal-soal')">✕</button>
+      <button class="btn-close-modal" onClick="closeModal('modal-soal')">✕</button>
     </div>
     <input type="hidden" id="soal-edit-id">
     <div class="form-group">
@@ -860,8 +860,8 @@
       <textarea class="form-control" id="soal-penjelasan" placeholder="Jelaskan mengapa jawaban tersebut benar..."></textarea>
     </div>
     <div class="modal-actions">
-      <button class="btn" style="background:var(--border);color:var(--muted);" onclick="closeModal('modal-soal')">Batal</button>
-      <button class="btn btn-sky" onclick="saveSoal()">💾 Simpan</button>
+      <button class="btn" style="background:var(--border);color:var(--muted);" onClick="closeModal('modal-soal')">Batal</button>
+      <button class="btn btn-sky" onClick="saveSoal()">💾 Simpan</button>
     </div>
   </div>
 </div>
@@ -891,8 +891,8 @@ const DEFAULT_PROFIL = [
 ];
 
 const DEFAULT_MATERI = [
-  { id:'m1', judul:'Apa Itu Human Security?', kategori:'Human Security', fase:'Fase C - Kelas 4', emoji:'🛡️', deskripsi:'Kenalan dengan konsep keamanan manusia yang merangkul semua aspek kehidupan.', isi:'Human security atau keamanan manusia adalah konsep yang berfokus pada keselamatan dan kesejahteraan setiap individu. Berbeda dengan keamanan negara yang berfokus pada perbatasan dan militer, human security mementingkan keselamatan manusia dalam kehidupan sehari-hari.\n\nKonsep ini dikembangkan oleh UNDP (Program Pembangunan PBB) pada tahun 1994. Ada 7 dimensi human security:\n\n1. Keamanan Ekonomi — bebas dari kemiskinan\n2. Keamanan Pangan — bebas dari kelaparan\n3. Keamanan Kesehatan — akses ke layanan kesehatan\n4. Keamanan Lingkungan — hidup di lingkungan yang bersih\n5. Keamanan Diri — bebas dari kekerasan\n6. Keamanan Komunitas — menjaga identitas dan tradisi\n7. Keamanan Politik — hak-hak dasar terlindungi', tujuan:'Siswa memahami definisi human security; Siswa dapat menyebutkan 7 dimensi human security; Siswa mengenal pentingnya keamanan manusia' },
-  { id:'m2', judul:'Menjaga Lingkungan Kita', kategori:'Lingkungan', fase:'Fase C - Kelas 4', emoji:'🌿', deskripsi:'Belajar cara merawat lingkungan sebagai bagian dari keamanan lingkungan hidup.', isi:'Lingkungan yang bersih dan sehat adalah hak setiap manusia. Menjaga lingkungan adalah tanggung jawab kita bersama.\n\nCara menjaga lingkungan:\n- Membuang sampah pada tempatnya\n- Melakukan 3R: Reduce (kurangi), Reuse (pakai ulang), Recycle (daur ulang)\n- Hemat air dan listrik\n- Menanam pohon di sekitar rumah\n- Tidak membakar sampah sembarangan\n\nDampak kerusakan lingkungan terhadap human security:\n- Banjir mengancam keselamatan warga\n- Polusi udara menyebabkan penyakit\n- Kekeringan mengancam ketersediaan air bersih', tujuan:'Siswa memahami pentingnya menjaga lingkungan; Siswa dapat menyebutkan cara menjaga lingkungan; Siswa memahami dampak kerusakan lingkungan' },
+  { id:'m1', judul:'Apa Itu Human Security?', kategori:'Human Security', fase:'Fase C - Kelas 5', emoji:'🛡️', deskripsi:'Kenalan dengan konsep keamanan manusia yang merangkul semua aspek kehidupan.', isi:'Human security atau keamanan manusia adalah konsep yang berfokus pada keselamatan dan kesejahteraan setiap individu. Berbeda dengan keamanan negara yang berfokus pada perbatasan dan militer, human security mementingkan keselamatan manusia dalam kehidupan sehari-hari.\n\nKonsep ini dikembangkan oleh UNDP (Program Pembangunan PBB) pada tahun 1994. Ada 7 dimensi human security:\n\n1. Keamanan Ekonomi — bebas dari kemiskinan\n2. Keamanan Pangan — bebas dari kelaparan\n3. Keamanan Kesehatan — akses ke layanan kesehatan\n4. Keamanan Lingkungan — hidup di lingkungan yang bersih\n5. Keamanan Diri — bebas dari kekerasan\n6. Keamanan Komunitas — menjaga identitas dan tradisi\n7. Keamanan Politik — hak-hak dasar terlindungi', tujuan:'Siswa memahami definisi human security; Siswa dapat menyebutkan 7 dimensi human security; Siswa mengenal pentingnya keamanan manusia' },
+  { id:'m2', judul:'Menjaga Lingkungan Kita', kategori:'Lingkungan', fase:'Fase C - Kelas 5', emoji:'🌿', deskripsi:'Belajar cara merawat lingkungan sebagai bagian dari keamanan lingkungan hidup.', isi:'Lingkungan yang bersih dan sehat adalah hak setiap manusia. Menjaga lingkungan adalah tanggung jawab kita bersama.\n\nCara menjaga lingkungan:\n- Membuang sampah pada tempatnya\n- Melakukan 3R: Reduce (kurangi), Reuse (pakai ulang), Recycle (daur ulang)\n- Hemat air dan listrik\n- Menanam pohon di sekitar rumah\n- Tidak membakar sampah sembarangan\n\nDampak kerusakan lingkungan terhadap human security:\n- Banjir mengancam keselamatan warga\n- Polusi udara menyebabkan penyakit\n- Kekeringan mengancam ketersediaan air bersih', tujuan:'Siswa memahami pentingnya menjaga lingkungan; Siswa dapat menyebutkan cara menjaga lingkungan; Siswa memahami dampak kerusakan lingkungan' },
   { id:'m3', judul:'Keberagaman dalam Masyarakat', kategori:'Keberagaman', fase:'Fase C - Kelas 5', emoji:'🌈', deskripsi:'Mengenal keberagaman budaya, suku, dan agama sebagai kekayaan bangsa Indonesia.', isi:'Indonesia adalah negara yang kaya akan keberagaman. Ada lebih dari 300 suku bangsa, 700 bahasa daerah, dan 6 agama yang diakui negara.\n\nManfaat keberagaman:\n- Memperkaya budaya bangsa\n- Meningkatkan kreativitas\n- Memperkuat persatuan jika dikelola dengan baik\n\nSikap yang perlu dikembangkan:\n- Toleransi: menghargai perbedaan\n- Gotong royong: bekerja sama\n- Menghormati adat istiadat daerah lain\n\nSemboyan Bhinneka Tunggal Ika artinya "Berbeda-beda tapi tetap satu". Ini mengingatkan kita untuk tetap bersatu meski berbeda.', tujuan:'Siswa mengenal keberagaman Indonesia; Siswa memahami pentingnya toleransi; Siswa dapat menunjukkan sikap menghargai perbedaan' },
   { id:'m4', judul:'Kerjasama di Lingkungan Sekolah', kategori:'Masyarakat', fase:'Fase C - Kelas 5', emoji:'🤝', deskripsi:'Belajar pentingnya kerjasama dan gotong royong dalam kehidupan bermasyarakat.', isi:'Kerjasama adalah bekerja bersama-sama untuk mencapai tujuan yang sama. Di sekolah, kerjasama bisa dilakukan dalam berbagai kegiatan.\n\nContoh kerjasama di sekolah:\n- Kerja kelompok dalam belajar\n- Piket kelas bersama\n- Kegiatan ekstrakurikuler\n- Membantu teman yang kesulitan\n\nManfaat kerjasama:\n- Pekerjaan lebih cepat selesai\n- Mempererat persahabatan\n- Melatih tanggung jawab\n- Mengembangkan kemampuan bersosialisasi\n\nGotong royong adalah budaya asli Indonesia yang mencerminkan nilai kebersamaan dan saling membantu.', tujuan:'Siswa memahami pentingnya kerjasama; Siswa dapat memberikan contoh kerjasama; Siswa mengenal nilai gotong royong' },
   { id:'m5', judul:'Kebutuhan Dasar Manusia', kategori:'Ekonomi', fase:'Fase C - Kelas 6', emoji:'🏠', deskripsi:'Memahami kebutuhan dasar manusia dan cara pemenuhannya dalam perspektif human security.', isi:'Setiap manusia memiliki kebutuhan dasar yang harus dipenuhi untuk hidup layak. Menurut Abraham Maslow, kebutuhan manusia tersusun dalam sebuah hierarki.\n\nKebutuhan dasar manusia:\n1. Fisiologis: makan, minum, tempat tinggal, pakaian\n2. Keamanan: rasa aman, perlindungan dari bahaya\n3. Sosial: rasa cinta, persahabatan, keluarga\n4. Penghargaan: dihormati, diakui prestasinya\n5. Aktualisasi diri: mengembangkan potensi\n\nKaitan dengan Human Security:\nKetika kebutuhan dasar tidak terpenuhi, keamanan manusia terancam. Contoh: kelaparan mengancam keamanan pangan, kemiskinan mengancam keamanan ekonomi.', tujuan:'Siswa memahami hierarki kebutuhan manusia; Siswa dapat mengidentifikasi kebutuhan dasar; Siswa memahami kaitan kebutuhan dasar dengan human security' },
