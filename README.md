@@ -1,7 +1,7 @@
 # 🌍 IPS Human Security
-### Platform Pembelajaran Interaktif IPS untuk SD Fase C
+### Platform Pembelajaran Interaktif IPS untuk SD Fase C — Kelas 5 & 6
 
-> Belajar IPS jadi menyenangkan! Platform berbasis **Human Security** untuk siswa SD Kelas 4, 5 & 6 — lengkap dengan materi, video, soal latihan, dan panel admin. Cukup **1 file HTML**, langsung jalan di GitHub Pages.
+> Belajar IPS jadi menyenangkan! Platform berbasis **Human Security** untuk siswa SD Fase C (Kelas 5 & 6) — lengkap dengan 7 materi, 7 video, soal latihan, profil tim pengajar, dan panel admin. Cukup **1 file HTML**, langsung jalan di GitHub Pages.
 
 ---
 
@@ -10,29 +10,57 @@
 | Fitur | Keterangan |
 |---|---|
 | 🏠 **Beranda** | Hero section, statistik konten, dan akses cepat ke semua halaman |
-| 📚 **Materi** | Sajian materi IPS bertema Human Security lengkap dengan halaman detail |
-| 🎬 **Video** | Galeri video pembelajaran dengan embed player |
-| ✏️ **Soal Latihan** | Soal pilihan ganda interaktif dengan koreksi dan penjelasan otomatis |
+| 📚 **Materi** | 7 materi IPS berbasis 7 dimensi Human Security, lengkap dengan tujuan pembelajaran |
+| 🎬 **Video** | 7 video pembelajaran dengan embed player YouTube |
+| ✏️ **Soal Latihan** | Soal pilihan ganda (A–D) interaktif dengan koreksi dan penjelasan otomatis |
 | 👥 **Tim Pengajar** | Profil lengkap tim pengajar/pengembang |
 | 🔐 **Panel Admin** | Login admin untuk tambah, edit, dan hapus semua konten |
-| 🔔 **Toast Notifikasi** | Notifikasi sukses/error muncul otomatis setiap aksi admin |
+| 🔔 **Toast Notifikasi** | Notifikasi sukses/error muncul otomatis di setiap aksi admin |
 | 💾 **Database Browser** | Semua data tersimpan di `localStorage` — tanpa server, tanpa biaya |
 
 ---
 
 ## 🗂️ Halaman Website
 
-Navigasi antar halaman menggunakan JavaScript (Single Page Application):
+Navigasi antar halaman menggunakan JavaScript (Single Page Application — 1 file HTML):
 
 ```
-🏠 Beranda       — Tampilan utama dengan statistik & akses cepat
-📚 Materi        — Daftar materi + halaman detail tiap materi
-🎬 Video         — Galeri video dengan embed player
-✏️ Soal          — Latihan soal pilihan ganda + penilaian otomatis
-👥 Tim           — Profil tim pengajar
-🔐 Login Admin   — Halaman login khusus admin
-⚙️ Panel Admin   — Kelola materi, video, soal, dan tim
+🏠 Beranda        — Tampilan utama dengan statistik & akses cepat
+📚 Materi         — Daftar 7 materi + halaman detail tiap materi
+🎬 Video          — Galeri 7 video dengan embed YouTube player
+✏️ Soal           — Latihan soal pilihan ganda + penilaian otomatis
+👥 Tim            — Profil tim pengajar
+🔐 Login Admin    — Halaman login khusus admin
+⚙️ Panel Admin    — Kelola materi, video, soal, dan tim
 ```
+
+---
+
+## 📚 Daftar Materi (7 Materi — Sesuai 7 Dimensi Human Security)
+
+| No | Judul | Dimensi Human Security | Kelas |
+|---|---|---|---|
+| 1 | 🛡️ Apa Itu Human Security? | Pengantar 7 Dimensi | Kelas 5 |
+| 2 | 🌿 Menjaga Lingkungan Kita | Keamanan Lingkungan | Kelas 5 |
+| 3 | 🌈 Keberagaman dalam Masyarakat | Keamanan Komunitas | Kelas 5 |
+| 4 | 🤝 Kerjasama di Lingkungan Sekolah | Keamanan Komunitas | Kelas 5 |
+| 5 | 🏠 Kebutuhan Dasar Manusia | Keamanan Ekonomi | Kelas 6 |
+| 6 | ⚖️ Hak dan Kewajiban Warga Negara | Keamanan Politik | Kelas 6 |
+| 7 | 🌾 Keamanan Pangan dan Gizi untuk Semua | Keamanan Pangan | Kelas 6 |
+
+---
+
+## 🎬 Daftar Video (7 Video — Sesuai 7 Dimensi Human Security)
+
+| No | Judul Video | Durasi | Tema |
+|---|---|---|---|
+| 1 | 🛡️ Pengenalan Human Security untuk Anak SD | 08:45 | Human Security |
+| 2 | 🌿 Menjaga Lingkungan Hidup Kita Bersama | 12:20 | Keamanan Lingkungan |
+| 3 | 🌈 Keberagaman Budaya Indonesia yang Indah | 15:00 | Keamanan Komunitas |
+| 4 | 🤝 Gotong Royong: Nilai Luhur Bangsa | 09:30 | Keamanan Komunitas |
+| 5 | 💰 Keamanan Ekonomi: Bebas dari Kemiskinan | 11:15 | Keamanan Ekonomi |
+| 6 | 🏥 Keamanan Kesehatan untuk Semua | 10:40 | Keamanan Kesehatan |
+| 7 | 🌾 Keamanan Pangan: Hak Makan yang Cukup | 13:00 | Keamanan Pangan |
 
 ---
 
@@ -95,12 +123,12 @@ Setelah login, pilih tab yang ingin dikelola:
 
 | Tab | Yang Bisa Dilakukan |
 |---|---|
-| **📚 Materi** | Tambah, edit, hapus materi pembelajaran |
-| **🎬 Video** | Tambah, edit, hapus video (URL embed) |
-| **✏️ Soal** | Tambah, edit, hapus soal pilihan ganda + kunci jawaban |
-| **👥 Tim** | Tambah, edit, hapus profil anggota tim pengajar |
+| **👥 Mahasiswa / Tim** | Tambah, edit, hapus profil anggota tim pengajar |
+| **📚 Materi** | Tambah, edit, hapus materi (pilih Fase C - Kelas 5 atau Kelas 6) |
+| **🎬 Video** | Tambah, edit, hapus video (masukkan URL YouTube lengkap) |
+| **✏️ Soal** | Tambah, edit, hapus soal pilihan ganda A–D beserta kunci jawaban dan penjelasan |
 
-Setiap aksi berhasil akan muncul **notifikasi toast** di pojok kanan bawah layar.
+Setiap aksi berhasil akan muncul **notifikasi toast** hijau di pojok kanan bawah layar.
 
 ---
 
@@ -111,27 +139,30 @@ Semua konten disimpan di **localStorage** browser. Artinya:
 - ✅ Tidak butuh server, database, atau biaya apapun
 - ✅ Bekerja 100% di GitHub Pages (hosting gratis)
 - ✅ Data langsung tersimpan saat admin menambah atau mengedit konten
-- ⚠️ Data tersimpan per-browser — jika cache browser dibersihkan, konten kembali ke data awal
+- ⚠️ Data tersimpan per-browser — jika cache browser dibersihkan, konten kembali ke data awal (default)
 - ⚠️ Konten yang diisi admin di satu perangkat tidak otomatis muncul di perangkat lain
 
-> 💡 **Tips:** Untuk konten yang ingin tampil ke semua pengguna secara permanen, edit langsung data default di fungsi `initData()` di dalam file `index.html`.
+> 💡 **Tips:** Untuk konten yang ingin tampil ke semua pengguna secara permanen, edit langsung data default (`DEFAULT_MATERI`, `DEFAULT_VIDEO`, `DEFAULT_SOAL`) di dalam file `index.html`.
 
 ---
 
-## 🎨 Topik Materi
+## 🌐 7 Dimensi Human Security (UNDP 1994)
 
-| Tema | Subtopik |
+| Dimensi | Makna |
 |---|---|
-| 🛡️ Keamanan Manusia | Pengertian Human Security, 7 dimensi, contoh kasus |
-| 🌍 Lingkungan & Masyarakat | Ekosistem, bencana alam, kelestarian alam |
-| 🤝 Kerja Sama Sosial | Organisasi masyarakat, norma sosial, gotong royong |
-| 💡 Ekonomi Dasar | Kebutuhan, produksi, distribusi, konsumsi |
+| 💰 Keamanan Ekonomi | Bebas dari kemiskinan, memiliki penghasilan layak |
+| 🌾 Keamanan Pangan | Bebas dari kelaparan, akses pangan bergizi |
+| 🏥 Keamanan Kesehatan | Akses layanan kesehatan dan hidup sehat |
+| 🌿 Keamanan Lingkungan | Hidup di lingkungan yang bersih dan lestari |
+| 🔒 Keamanan Diri | Bebas dari kekerasan dan ancaman fisik |
+| 👥 Keamanan Komunitas | Menjaga identitas, tradisi, dan kebersamaan |
+| 🗳️ Keamanan Politik | Hak asasi manusia dan kebebasan dasar terlindungi |
 
 ---
 
 ## 🖥️ Teknologi yang Digunakan
 
-- **Bahasa:** HTML, CSS, JavaScript (Vanilla — tanpa framework)
+- **Bahasa:** HTML, CSS, JavaScript Vanilla (tanpa framework)
 - **Font:** Nunito (Google Fonts)
 - **Penyimpanan:** localStorage API
 - **Hosting:** GitHub Pages (gratis)
@@ -144,22 +175,22 @@ Semua konten disimpan di **localStorage** browser. Artinya:
 - ✅ Tidak perlu install apapun
 - ✅ Tidak butuh Node.js, PHP, atau server backend
 - ✅ Cukup browser modern (Chrome, Firefox, Edge, Safari)
-- ✅ Koneksi internet hanya untuk font Google dan embed video
+- ✅ Koneksi internet hanya untuk font Google Fonts dan embed video YouTube
 
 ---
 
 ## 🔧 Tips & Troubleshooting
 
-**Website tidak berubah setelah edit?**
+**Website tidak berubah setelah edit di GitHub?**
 → Tekan `Ctrl + Shift + R` untuk hard refresh, atau buka di tab Incognito
 
 **Lupa password admin?**
 → Cari `ADMIN_PASS` di dalam `index.html` dan ubah nilainya
 
 **Data hilang setelah clear browser?**
-→ Data kembali ke default. Edit fungsi `initData()` untuk mengubah data bawaan
+→ Data kembali ke default. Edit `DEFAULT_MATERI`, `DEFAULT_VIDEO`, `DEFAULT_SOAL` untuk mengubah data bawaan
 
-**Ingin tambah meta anti-cache?**
+**Ingin tambah meta anti-cache agar perubahan langsung terlihat?**
 → Tambahkan ini di dalam `<head>`:
 ```html
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
